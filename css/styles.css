@@ -41,3 +41,20 @@ grid-template-columns: auto 1fr auto;
     font-weight: 700;
     line-height: 1.1;
 }
+.actions-header {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu__list {
+    display: flex;
+    gap: 32px;
+}
+.menu__link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
